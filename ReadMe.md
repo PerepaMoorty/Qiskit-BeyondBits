@@ -39,11 +39,31 @@ To get started, set up your environment by following these steps:
    ```bash
    pip install qiskit
    ```
+- Other:
+   ```bash
+   pip install qiskit_aer
+   pip install qiskit_ibm_runtime
+   pip install matplotlib
+   pip install pylatexenc
+   pip install git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git
+   ```
+
+### Check for Dependencies
+- Run the following command in your terminal to check for any missing dependencies:
+   ```bash
+   pip show pylatexenc matplotlib qc_grader
+   ```
+
+- Run the following in a Python file:
+   ```python
+   import qiskit
+   qiskit.__version__
+   ```
 
 ### Clone the Repository:
 ```bash
 git clone https://github.com/your-repository-name.git
-cd your-repository-name
+cd Qiskit-BeyondBits
 ```
 
 ### Launch the Notebooks:
